@@ -11,6 +11,12 @@
 		5D85CFF12C74DC7F000D37CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D85CFF02C74DC7F000D37CC /* ContentView.swift */; };
 		5D85CFF32C74DC80000D37CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85CFF22C74DC80000D37CC /* Assets.xcassets */; };
 		5D85CFF62C74DC80000D37CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85CFF52C74DC80000D37CC /* Preview Assets.xcassets */; };
+		5DA5EFAA2C78EE370077B48B /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFA92C78EE370077B48B /* Setup.swift */; };
+		5DA5EFAC2C78F04D0077B48B /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFAB2C78F04D0077B48B /* Deposit.swift */; };
+		5DA5EFAE2C78F0DF0077B48B /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFAD2C78F0DF0077B48B /* Withdraw.swift */; };
+		5DA5EFB02C78F5B50077B48B /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFAF2C78F5B50077B48B /* Export.swift */; };
+		5DA5EFB52C78F91C0077B48B /* SetupCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFB42C78F91C0077B48B /* SetupCreate.swift */; };
+		5DA5EFB72C78F93A0077B48B /* SetupJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5EFB62C78F93A0077B48B /* SetupJoin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5D85CFF02C74DC7F000D37CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D85CFF22C74DC80000D37CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D85CFF52C74DC80000D37CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA5EFA92C78EE370077B48B /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		5DA5EFAB2C78F04D0077B48B /* Deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
+		5DA5EFAD2C78F0DF0077B48B /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+		5DA5EFAF2C78F5B50077B48B /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		5DA5EFB42C78F91C0077B48B /* SetupCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupCreate.swift; sourceTree = "<group>"; };
+		5DA5EFB62C78F93A0077B48B /* SetupJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupJoin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,10 @@
 			children = (
 				5D85CFEE2C74DC7F000D37CC /* Easy_MultisigApp.swift */,
 				5D85CFF02C74DC7F000D37CC /* ContentView.swift */,
+				5DA5EFB32C78F7EE0077B48B /* Setup */,
+				5DA5EFAB2C78F04D0077B48B /* Deposit.swift */,
+				5DA5EFAD2C78F0DF0077B48B /* Withdraw.swift */,
+				5DA5EFAF2C78F5B50077B48B /* Export.swift */,
 				5D85CFF22C74DC80000D37CC /* Assets.xcassets */,
 				5D85CFF42C74DC80000D37CC /* Preview Content */,
 			);
@@ -65,6 +81,16 @@
 				5D85CFF52C74DC80000D37CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DA5EFB32C78F7EE0077B48B /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				5DA5EFA92C78EE370077B48B /* Setup.swift */,
+				5DA5EFB42C78F91C0077B48B /* SetupCreate.swift */,
+				5DA5EFB62C78F93A0077B48B /* SetupJoin.swift */,
+			);
+			path = Setup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA5EFAC2C78F04D0077B48B /* Deposit.swift in Sources */,
+				5DA5EFB52C78F91C0077B48B /* SetupCreate.swift in Sources */,
+				5DA5EFAE2C78F0DF0077B48B /* Withdraw.swift in Sources */,
 				5D85CFF12C74DC7F000D37CC /* ContentView.swift in Sources */,
+				5DA5EFAA2C78EE370077B48B /* Setup.swift in Sources */,
+				5DA5EFB72C78F93A0077B48B /* SetupJoin.swift in Sources */,
 				5D85CFEF2C74DC7F000D37CC /* Easy_MultisigApp.swift in Sources */,
+				5DA5EFB02C78F5B50077B48B /* Export.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
